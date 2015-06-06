@@ -12,5 +12,8 @@ You can execute our custom test with:
 ./gradlew :lintrules:cleanTest :lintrules:test --tests de.mprengemann.customlint.lintrules.issues.WrongTimberUsageTest
 ```
 
-You can find the associated talk here:
+You can find the information about the talk here:
 http://droidcon.de/session/power-custom-lint-checks
+
+The slides are published here:
+https://speakerdeck.com/winterdroid/the-power-of-custom-lint-checks
