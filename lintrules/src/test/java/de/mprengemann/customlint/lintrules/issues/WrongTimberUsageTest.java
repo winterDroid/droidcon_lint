@@ -15,7 +15,7 @@ public class WrongTimberUsageTest extends LintCheckTest {
             "        Log.d(TAG, \"Test android logging\");\n" +
             "        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n" +
             "0 errors, 1 warnings\n",
-            lintFiles("WrongTimberTestActivity.java.txt=>" +
+            lintFiles("WrongTimberTestActivity.java=>" +
                       "src/de/mprengemann/customlintrules/WrongTimberTestActivity.java"));
     }
 }
