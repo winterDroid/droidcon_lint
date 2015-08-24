@@ -17,3 +17,8 @@ http://droidcon.de/session/power-custom-lint-checks
 
 The slides are published here:
 https://speakerdeck.com/winterdroid/the-power-of-custom-lint-checks
+
+## Udpate
+
+Since the release of ```com.android.tools.lint:lint-tests:24.3.1``` it is recommended to use ```LintDetectorTest```
+instead of ```LintCheckTest```. You can find an example implementation here: https://github.com/winterDroid/droidcon_nyc
